@@ -147,13 +147,11 @@ print(f"Max Drawdown: {risk_metrics.max_drawdown:.2%}")
 ## 📊 Sample Results
 
 ### Efficient Frontier Visualization
-![Efficient Frontier](output/visualizations/efficient_frontier.png)
 
-<img width="1038" alt="image" src="https://github.com/user-attachments/assets/3f746413-4c0a-4e56-88d2-d1a39deb23d5" />
-
+![image](https://github.com/user-attachments/assets/89517f61-6d40-4b00-b7ed-ad8ee08f2f1b)
 
 ### Portfolio Performance
-![Performance Chart](output/visualizations/performance_comparison.png)
+![Performance Chart](output/visualizations/performance_dashboard.png)
 
 ### Risk Decomposition
 ![Risk Analysis](output/visualizations/risk_decomposition.png)
