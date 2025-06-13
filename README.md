@@ -154,7 +154,10 @@ print(f"Max Drawdown: {risk_metrics.max_drawdown:.2%}")
 ![Performance Chart](output/visualizations/performance_dashboard.png)
 
 ### Risk Decomposition
-![Risk Analysis](output/visualizations/risk_decomposition.png)
+![image](https://github.com/user-attachments/assets/ace9451a-2103-4a7f-9638-5a64d501458d)
+
+![image](https://github.com/user-attachments/assets/c1f03f2a-fe29-41cf-bac2-9e97a09794cc)
+
 
 ## 🧪 Testing & Validation
 
