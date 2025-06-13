@@ -1,0 +1,27 @@
+PORTFOLIO OPTIMIZATION REPORT
+==================================================
+
+Run Date: 2025-06-12 09:53:32
+Tickers: AAPL, GOOGL, MSFT
+Period: 2020-01-01 to 2023-12-31
+
+STRATEGY PERFORMANCE SUMMARY
+--------------------------------------------------
+
+MAX_SHARPE:
+  Annual Return: 351.00%
+  Annual Volatility: 84.04%
+  Sharpe Ratio: 1.776
+  Max Drawdown: -6.29%
+
+MIN_VOLATILITY:
+  Annual Return: 352.72%
+  Annual Volatility: 84.08%
+  Sharpe Ratio: 1.779
+  Max Drawdown: -5.58%
+
+EQUAL_WEIGHT:
+  Annual Return: 352.72%
+  Annual Volatility: 84.08%
+  Sharpe Ratio: 1.779
+  Max Drawdown: -5.58%

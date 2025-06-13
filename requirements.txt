@@ -15,6 +15,10 @@ plotly>=5.0.0
 scikit-learn>=1.0.0
 statsmodels>=0.13.0
 
+#Garch
+pytest
+arch>=5.0.0
+
 # Development tools
 jupyter>=1.0.0
 pytest>=6.0.0

@@ -1,0 +1,90 @@
+{
+    "run_date": "2025-06-12 09:53:32",
+    "config": {
+        "tickers": [
+            "AAPL",
+            "GOOGL",
+            "MSFT"
+        ],
+        "start_date": "2020-01-01",
+        "end_date": "2023-12-31",
+        "initial_capital": 100000,
+        "train_end_date": "2022-12-31",
+        "risk_free_rate": 0.02,
+        "rebalance_frequency": "quarterly",
+        "commission": 0.001,
+        "constraints": {
+            "min_weight": 0.0,
+            "max_weight": 0.4
+        }
+    },
+    "optimization_results": {
+        "max_sharpe": {
+            "weights": {
+                "AAPL": 0.4,
+                "GOOGL": 0.19999999999999998,
+                "MSFT": 0.4
+            },
+            "expected_return": 0.22187789510603254,
+            "expected_risk": 0.3048943617353931
+        },
+        "min_volatility": {
+            "weights": {
+                "AAPL": 0.3333333333333333,
+                "GOOGL": 0.3333333333333333,
+                "MSFT": 0.3333333333333333
+            },
+            "expected_return": 0.21471849250501684,
+            "expected_risk": 0.30342459826202184
+        }
+    },
+    "risk_metrics": {
+        "max_sharpe": {
+            "total_return": 3.4563614117497865,
+            "annual_return": 3.5099554118183374,
+            "annual_volatility": 0.8403507025783158,
+            "sharpe_ratio": 1.7758497836984617,
+            "sortino_ratio": 211.35772774657272,
+            "max_drawdown": -0.06290955246703929,
+            "var_95": -0.009968762382263179,
+            "cvar_95": -0.01363759816395636
+        },
+        "min_volatility": {
+            "total_return": 3.4732615719656517,
+            "annual_return": 3.527195908643397,
+            "annual_volatility": 0.8408034116175368,
+            "sharpe_ratio": 1.7794497406839678,
+            "sortino_ratio": 202.27867537841487,
+            "max_drawdown": -0.055839136887342315,
+            "var_95": -0.010764524777316686,
+            "cvar_95": -0.014483461478809908
+        },
+        "equal_weight": {
+            "total_return": 3.4732615719656517,
+            "annual_return": 3.527195908643397,
+            "annual_volatility": 0.8408034116175368,
+            "sharpe_ratio": 1.7794497406839678,
+            "sortino_ratio": 202.27867537841487,
+            "max_drawdown": -0.055839136887342315,
+            "var_95": -0.010764524777316686,
+            "cvar_95": -0.014483461478809908
+        }
+    },
+    "backtest_summary": {
+        "max_sharpe": {
+            "final_value": 445636.14117497863,
+            "total_return": 345.63614117497866,
+            "number_of_trades": 9
+        },
+        "min_volatility": {
+            "final_value": 447326.1571965652,
+            "total_return": 347.3261571965652,
+            "number_of_trades": 9
+        },
+        "equal_weight": {
+            "final_value": 447326.1571965652,
+            "total_return": 347.3261571965652,
+            "number_of_trades": 9
+        }
+    }
+}

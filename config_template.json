@@ -1,0 +1,34 @@
+{
+    "tickers": ["AAPL", "GOOGL", "MSFT", "AMZN", "JPM", "TSLA", "BRK-B", "NVDA", "META", "UNH"],
+    "start_date": "2019-01-01",
+    "end_date": "2023-12-31",
+    "train_end_date": "2022-06-30",
+    "interval": "1d",
+    "initial_capital": 100000,
+    "risk_free_rate": 0.02,
+    "target_return": 0.15,
+    "rebalance_frequency": "quarterly",
+    "commission": 0.001,
+    "constraints": {
+        "min_weight": 0.0,
+        "max_weight": 0.25,
+        "min_positions": 5,
+        "sector_limits": {
+            "Technology": 0.4,
+            "Finance": 0.3,
+            "Healthcare": 0.3
+        }
+    },
+    "risk_preferences": {
+        "max_volatility": 0.20,
+        "max_drawdown": 0.15,
+        "min_sharpe": 0.5
+    },
+    "optimization_methods": ["max_sharpe", "min_volatility", "risk_parity", "equal_weight"],
+    "output_settings": {
+        "generate_plots": true,
+        "generate_report": true,
+        "save_backtest_data": true,
+        "interactive_dashboard": true
+    }
+}
