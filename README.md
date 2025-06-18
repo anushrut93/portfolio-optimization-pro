@@ -147,13 +147,17 @@ print(f"Max Drawdown: {risk_metrics.max_drawdown:.2%}")
 ## 📊 Sample Results
 
 ### Efficient Frontier Visualization
-![Efficient Frontier](output/visualizations/efficient_frontier.png)
+
+![image](https://github.com/user-attachments/assets/89517f61-6d40-4b00-b7ed-ad8ee08f2f1b)
 
 ### Portfolio Performance
-![Performance Chart](output/visualizations/performance_comparison.png)
+![Performance Chart](output/visualizations/performance_dashboard.png)
 
 ### Risk Decomposition
-![Risk Analysis](output/visualizations/risk_decomposition.png)
+![image](https://github.com/user-attachments/assets/ace9451a-2103-4a7f-9638-5a64d501458d)
+
+![image](https://github.com/user-attachments/assets/c1f03f2a-fe29-41cf-bac2-9e97a09794cc)
+
 
 ## 🧪 Testing & Validation
 
@@ -215,8 +219,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**[Your Name]**  
-📧 your.email@example.com  
+**[Anushrut Sharma]**  
+📧 anushrut93@gmail.com  
 💼 [LinkedIn](https://linkedin.com/in/anushrut93)  
 🐙 [GitHub](https://github.com/anushrut93)
 
