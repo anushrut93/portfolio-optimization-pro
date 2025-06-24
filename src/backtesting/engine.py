@@ -20,6 +20,9 @@ from enum import Enum
 logger = logging.getLogger(__name__)
 
 
+from ..microstructure import MarketImpactModel, TransactionCostOptimizer
+
+
 class RebalanceFrequency(Enum):
     """
     Defines how often the portfolio should be rebalanced.
@@ -65,6 +68,9 @@ class BacktestConfig:
             raise ValueError("Transaction costs should be between 0 and 1%")
         if self.min_position_size < 0 or self.min_position_size > self.max_position_size:
             raise ValueError("Invalid position size constraints")
+
+
+
 
 
 @dataclass

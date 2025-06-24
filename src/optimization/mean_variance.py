@@ -14,8 +14,15 @@ import scipy.optimize as sco
 from dataclasses import dataclass
 import logging
 
+# If you need to import from backtesting, use:
+from ..backtesting.engine import BacktestEngine, BacktestConfig
+
+# OR if you have it in __init__.py:
+from ..backtesting import BacktestEngine, BacktestConfig
+
 # Set up logging
 logger = logging.getLogger(__name__)
+
 
 
 @dataclass
